@@ -66,7 +66,6 @@ def lossFunction(w, b, misClassifiedPoints):
         x = X[i]
         y = Y[i]
         dis_arr.append(y*(w.dot(x)+b))
-    loss = -sum(dis_arr)
     return dis_arr
 
 #%%
